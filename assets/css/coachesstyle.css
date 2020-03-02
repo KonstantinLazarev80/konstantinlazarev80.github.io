@@ -135,9 +135,9 @@ ul.menu li a:hover {
 }
 
 .info_face {
-    margin-bottom: 5%;
+    margin-bottom: 20px;
     background: #f9f9f9;
-    padding: 5%;
+    padding: 10px;
     height: 200px;
 }
 
@@ -149,19 +149,61 @@ ul.menu li a:hover {
     width: 25%;
 }
 
-.info_face h1 {
-    font: 1.3em "Fira Sans", sans-serif;
+.info_face h2 {
+    font: 2.3em "Fira Sans", sans-serif;
     color: rgb(4, 58, 114);
     margin-top: 10px;
     margin-bottom: 25px;
 }
 
 .info_face p {
-    font: 1em "Fira Sans", sans-serif;
+    font: 1.8em "Fira Sans", sans-serif;
     color: rgb(4, 58, 114);
     margin-bottom: 0px;
 }
 
+.site_conten {
+    height: 1000px;
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+.site_conten img {
+    border-radius: 50%;
+    width: 30%;
+    float: left;
+
+}
+
+.best {
+    background-color: palegoldenrod;
+    display: inline-block;
+    border: orangered;
+    border-width: 15px;
+    margin: 10px;
+    width: 230px;
+    height: 150px;
+    padding: 10px;
+}
+
+.site_conten h2 {
+    padding: 0 0 10px 0;
+    text-align: center;
+    font: 1.5em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin: 0 0 0 0;
+
+}
+
+.site_conten p {
+    padding: 0 0 10px 0;
+    text-align: left;
+    font: 1.1em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin: 0 0 0 0;
+
+}
 
 
 .footer {
