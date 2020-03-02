@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-image: url(/assets/img/Layer1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    z-index: -1;
+
+}
+
+.logo {
+    display: block;
+    padding-top: 310px;
+    padding-bottom: 70px;
+
+
+}
+
+.text {
+    font: 4em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    width: 150px;
+    margin: 0 50px 0 450px;
+
+}
+
+.text1 {
+    font: 1.3em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    width: 390px;
+    margin: 0 50px 0 50px;
+
+}
+
+.menubar {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul.menu {
+    float: center;
+    margin-top: 10px;
+}
+
+ul.menu li {
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 0px 2px 0 0;
+}
+
+ul.menu li a {
+    font: 1.6em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    display: block;
+    padding: 5px 0px 5px 0px;
+    text-decoration: none;
+}
+
+ul.menu li.selected a {
+    color: #aeb002;
+}
+
+ul.menu li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.content_club {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0 20px 0;
+}
+
+.content_club h1 {
+    font: 3em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    display: block;
+    padding: 5px 0px 5px 0px;
+}
+
+.content_club p {
+    font: 1.5em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    display: block;
+    padding: 5px 0px 5px 0px;
+    /*text-indent: 60px;*/
+
+}
+
+.clubtext {
+    margin: 30px 0 30px 110px;
+}
+
+.clubfoto {
+    margin: 30px 0 30px 40px;
+}
+
+
+.content_sponsors {
+    width: 1200px;
+    margin: 0 auto;
+    height: 800px;
+}
+
+.content_sponsors img {
+    width: 200px;
+    height: 200px;
+    margin: 80px 0 20px 80px;
+}
+
+
+.content {
+    max-width: 800px;
+    position: relative;
+    margin-top: 150px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+}
+
+.content a {
+    text-decoration: none;
+}
+
+.info_face {
+    margin-bottom: 5%;
+    background: #f9f9f9;
+    padding: 5%;
+    height: 200px;
+}
+
+.info_face img {
+    float: left;
+    margin-right: 2%;
+    border-radius: 50%;
+    border: solid 5px #dad7d5;
+    width: 25%;
+}
+
+.info_face h1 {
+    font: 1.3em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.info_face p {
+    font: 1em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin-bottom: 0px;
+}
+
+
+
+.footer {
+    background-image: url(/assets/img/Layer3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    z-index: -1;
+
+}
+
+.footer p {
+    padding: 0 0 10px 0;
+    text-align: center;
+    font: 1.1em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin: 0 0 0 0;
+}
+
+.social {
+    display: block;
+    width: 238px;
+    margin: 0 auto;
+}
+
+/* нужно подкоретировать во всех файлах CSS */

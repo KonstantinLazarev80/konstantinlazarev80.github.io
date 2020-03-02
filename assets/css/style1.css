@@ -1,0 +1,215 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.2;
+}
+
+ol {
+    padding-left: 1.4em;
+    list-style: decimal;
+}
+
+ul {
+    padding-left: 1.4em;
+    list-style: square;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo1 {
+    font: small-caps bold 40px/1 sans-serif;
+    color: rgb(4, 58, 114);
+    letter-spacing: 10px;
+    text-align: right;
+    margin-right: 150px;
+    margin-top: 300px;
+    line-height: 0;
+}
+
+.logo2 {
+    font: 1.3em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    text-align: left;
+    margin-left: 20px;
+}
+
+.menubar {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+ul.menu {
+    float: center;
+    border-bottom: inset;
+}
+
+ul.menu li {
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 380px 2px 0 0;
+}
+
+ul.menu li a {
+    font: 1.4em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    display: block;
+    padding: 5px 0px 5px 0px;
+    text-decoration: none;
+}
+
+ul.menu li.selected a {
+    color: #aeb002;
+}
+
+ul.menu li a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.header {
+    background-image: url(/assets/img/Layer1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.contentbest figure {
+    display: inline-block;
+    width: 300px;
+    height: 210px;
+    margin: 15px;
+    position: relative;
+}
+
+.contentbest figcaption {
+    position: absolute;
+    top: 15%;
+    bottom: 15%;
+    left: 0;
+    right: 0;
+    background-color: rgba(153, 153, 153, .9);
+    padding: 20px;
+    font-family: Titillium, Arial, sans-serif;
+    font-weight: 400;
+    font-size: .9em;
+    color: white;
+    opacity: 0;
+    transition: opacity .75s ease-out;
+}
+
+.footer {
+    background-image: url(/assets/img/Layer3.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    height: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
