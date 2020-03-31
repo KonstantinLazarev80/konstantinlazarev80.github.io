@@ -79,8 +79,7 @@ ul.menu li a:hover {
 }
 
 .site_conten {
-    
-    height: 1500px;
+    height: 1200px;
     width: 1200px;
     margin: 0 auto;
 }
@@ -89,12 +88,12 @@ ul.menu li a:hover {
     display: inline-block;
     overflow: hidden;
     margin-bottom: 20px;
-    background:  #f9f9f9;
+    background: #f9f9f9;
     padding: 10px;
     height: 320px;
     width: 540px;
     margin-left: 20px;
-    
+
 
 }
 
