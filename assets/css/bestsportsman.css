@@ -24,8 +24,8 @@ a {
     display: block;
     padding-top: 310px;
     padding-bottom: 70px;
-   
-    
+
+
 }
 
 .text {
@@ -33,15 +33,15 @@ a {
     color: rgb(4, 58, 114);
     width: 150px;
     margin: 0 50px 0 450px;
-    
+
 }
 
 .text1 {
     font: 1.3em "Fira Sans", sans-serif;
     color: rgb(4, 58, 114);
-    width: 390px;  
+    width: 390px;
     margin: 0 50px 0 50px;
-    
+
 
 }
 
@@ -79,46 +79,47 @@ ul.menu li a:hover {
 }
 
 .site_conten {
-    height: 1000px;
-    width: 1400px;
+    
+    height: 1500px;
+    width: 1200px;
     margin: 0 auto;
-
 }
 
-.site_conten img {
-    border-radius: 50%;
-    width: 30%;
-    float: left;
-
-}
-
-.best {
-    background-color: palegoldenrod;
+.site_conten .best {
     display: inline-block;
-    border: orangered;
-    border-width: 15px;
-    margin: 10px;
-    width: 230px;
-    height: 130px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background:  #f9f9f9;
     padding: 10px;
-}
-
-.site_conten h1 {
-    padding: 0 0 10px 0;
-    text-align: center;
-    font: 1.5em "Fira Sans", sans-serif;
-    color: rgb(4, 58, 114);
-    margin: 0 0 0 0;
+    height: 320px;
+    width: 540px;
+    margin-left: 20px;
+    
 
 }
 
-.site_conten p {
-    padding: 20px 0 10px 0;
-    text-align: center;
-    font: 1.1em "Fira Sans", sans-serif;
-    color: rgb(4, 58, 114);
-    margin: 0 0 0 0;
+.site_conten .best img {
+    float: right;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 150px;
+}
 
+.site_conten .best h2 {
+    text-align: center;
+    font: 2em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.site_conten .best p {
+    font: 1.3em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    text-align: left;
+    padding: 0;
+    margin: 10px;
 }
 
 .footer {
@@ -148,5 +149,5 @@ ul.menu li a:hover {
 .social {
     background-position: center;
     display: inline-block;
-    
+
 }
