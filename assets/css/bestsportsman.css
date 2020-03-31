@@ -121,6 +121,55 @@ ul.menu li a:hover {
     margin: 10px;
 }
 
+.site_conten {
+    height: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.conten_honor {
+    height: 2000px;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.conten_honor .honor {
+    display: inline-block;
+    overflow: scroll;
+    margin-bottom: 20px;
+    background: #f9f9f9;
+    padding: 10px;
+    height: 200px;
+    width: 360px;
+    margin-left: 10px;
+
+
+}
+
+.conten_honor .honor img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.conten_honor .honor h2 {
+    text-align: center;
+    font: 2em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    margin-bottom: 10px;
+    padding: 10px;
+
+}
+
+.conten_honor .honor p {
+    font: 1.3em "Fira Sans", sans-serif;
+    color: rgb(4, 58, 114);
+    text-align: left;
+    padding: 0;
+    margin: 10px;
+}
+
 .footer {
     background-size: cover;
     background-image: url(/assets/img/Layer3.jpg);
